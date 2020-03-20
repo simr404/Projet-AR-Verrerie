@@ -40,7 +40,7 @@ public class CollectionManager : MonoBehaviour
         }
     }
 
-    void SetCollection()
+    public void SetCollection()
     {
         //changement de la collection en fonction de la sélection
         switch(chosenCollectionId)
